@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+nav {
+    background-color: #242629;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20PX ;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 90Px;
+}
+nav .logo img {
+    width: 200PX;
+    height: 120px;
+    
+}
+nav .nav-links {
+    display: flex;
+    gap: 2.5rem;
+}
+#coin{
+    color: #f1c40f;
+}
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #1abc32 ;
+}
+.main_logo{
+    width: 600px;
+    height: 370px;
+}
+header {
+    background-image:url("assets/back-img.png") ;
+    background-size: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+header button {
+    font-size:30px;
+    width: 250px;
+    height: 50px;
+    background-color:#1abc32 ;
+    border: none;
+    border-radius: 25px;
+    color: white;
+  
+}
+header button:hover {
+    background-color:white;
+    color: #1abc32 ;
+}
+
+.sec-service{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ser{
+    width: 70%;
+    display: flex;
+    text-align: center;
+}
+.ser h3{
+    color: rgb(111, 111, 111);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.graphic {
+    height: 300px;
+    width: 250px;
+    padding: 40px 30px;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 50PX;
+}
+.vid{
+    height: 300px;
+    width: 250px;
+    padding: 40px;
+    
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50PX;
+} 
+
+.ser  :hover{
+    box-shadow: 0px 0px 14px darkgray;
+}
+.ser div :hover{
+    box-shadow: 0px 0px 0px darkgray;
+}
+
+.links {
+    text-align: center;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+.but-dow{
+    width: 150px;
+    height: 50px;
+    background-color:#1abc32 ;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#but-dow:hover {
+    background-color:white;
+    color: #1abc32 ;
+    box-shadow: lightgray 0px 0px 10px;
+}
+#products{
+    text-align: center;
+    padding-top: 100px;
+    
+    align-items: center;
+}
+#product{
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.product-grid {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.product-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+.image-produit{
+    width: 300px;
+    height: 200px;
+}
+.product-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.product-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.product-details {
+    padding: 1rem;
+}
+.product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.product-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+.product-prices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.product-price, .product-coins {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.product-price {
+    color: #141313;
+}
+.product-coins {
+    color: #f1c40f;
+}
+.buy-button {
+    background-color: #1abc32;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buy-button:hover {
+    background-color: #158826;
+}
+
+footer {
+    background-color: #232323; /* Dark background */
+    color: white;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-center li {
+    margin: 0 15px;
+  }
+  
+  .footer-center a {
+    text-decoration: none;
+    color: #bbb;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-center a:hover {
+    color: #158826;
+  }
+  
+  .footer-right .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-right .social-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-right .social-icon {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-right .social-icon:hover {
+    color: #158826;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-left, .footer-center, .footer-right {
+      margin-bottom: 20px;
+    }
+  
+    .footer-center ul {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .footer-center li {
+      margin: 5px 10px;
+    }
+  
+    .footer-right .social-links {
+      justify-content: center;
+    }
+  }
+  #mtc-logo{
+    width: 250px;
+    height: 70px;
+margin-left: 10px;}
+

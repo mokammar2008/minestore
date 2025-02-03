@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MINEstore</title>
+  <link rel="stylesheet" href="shop.css">
+  <link rel="icon" href="assets/icon.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fontawesome.com/icons/gear?f=classic&s=solid">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tangerine:wght@400;700&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="./img/Sans titre - 4.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+<body> 
+  <nav>
+    <div class="logo"><img src="assets\logo.png" alt=""></div>
+    <div class="nav-links">
+      <a href="" id="coin"><i class="fa fa-fw fa-coins"><p id="coin-counter">0</p></i></a>
+        <a href="../index.html"><i class="fa fa-fw fa-home"></i></a>
+        <a href="shop.html"><i class="fa fa-fw fa-shop"></i></a>
+        
+        <a href="#tab"><i class="fa fa-fw fa-cart-shopping"></i></a>
+        <a href="form.html"><i class="fa fa-fw fa-right-to-bracket"></i></a>
+    </div>
+</nav>
+
+  <h1 id="tit">Our creation</h1>
+ <section class="prod"> <div>
+<div id="tre_pre">
+  <div class="product-container">
+    <img class="image-produit" src="assets/firas1.jpg" alt="Product Image">
+    <div class="product-details">
+        <div class="product-name">gale sanctum</div>
+        <div class="product-description">A golem that has been created by the illagers he works with the power of wind 
+          He has 50HP
+          </div>
+        <div class="product-prices">
+            <div class="product-price">$40.00</div>
+            <div class="product-coins"> <i class="fa fa-fw fa-coins">30</i></div>
+        </div>
+        <button class="buy-button"   onclick="addToCart('gale sanctum', 'A golem that has been created by the illagers he works with the power of wind He has 50', 'assets/firas1.jpg', 40)">Buy Now</button>
+    </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/firas2.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">The wild fire </div>
+      <div class="product-description">A mini boss that spwans in the nether fortress trying to stop you from stealing his loot</div>
+      <div class="product-prices">
+          <div class="product-price">$15.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">10</i></div>
+      </div>
+      <button class="buy-button" onclick="addToCart('The wild fire', 'A mini boss that spwans in the nether fortress trying to stop you from stealing his loot', 'assets/firas2.jpg', 15)">Buy Now</button>
+  </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/firas3.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">The redstone monstrosity</div>
+      <div class="product-description">A boss Spawns in the caves 
+        Has 200 HP
+        deals 15 harts of damage and throws explosive cubes at the players</div>
+      <div class="product-prices">
+          <div class="product-price">$35.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">25</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('The redstone monstrosity', 'A boss Spawns in the caves Has 200 HP deals 15 harts of damage and throws explosive cubes at the players', 'assets/firas3.jpg',35)">Buy Now</button>
+
+  </div>
+</div>
+    
+</div>
+<div id="tre_pre">
+  <div class="product-container">
+    <img class="image-produit" src="assets/firas4.jpg" alt="Product Image">
+    <div class="product-details">
+        <div class="product-name">The willager</div>
+        <div class="product-description">he can't hit the player He Spawns in the raids and steals the loot of the player from his chest illagers will do their best to protect him and he has 20 HP</div>
+        <div class="product-prices">
+            <div class="product-price">$60.00</div>
+            <div class="product-coins"> <i class="fa fa-fw fa-coins">50</i></div>
+        </div>
+        <button class="buy-button"   onclick="addToCart('The willager', 'he can thit the player He Spawns in the raids and steals the loot of the player from his chest illagers will do their best to protect him and he has 20 HP', 'assets/firas4.jpg',60)">Buy Now</button>
+    </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/firas5.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">The ancient guardien</div>
+      <div class="product-description"> a boss Spawns under water in his structure he attacks the player with the Lazer coming from his eye</div>
+      <div class="product-prices">
+          <div class="product-price">$50.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">40</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('The ancient guardien', 'a boss Spawns under water in his structure he attacks the player with the Lazer coming from his eye', 'assets/firas5.jpg',50)">Buy Now</button>
+  </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/firas6.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">the samurai wither</div>
+      <div class="product-description">Gear up for adventure with this vibrant Minecraft-themed backpack!</div>
+      <div class="product-prices">
+          <div class="product-price">$35.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">25</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('the samurai wither', 'Gear up for adventure with this vibrant Minecraft-themed backpack!', 'assets/firas6.jpg',35)">Buy Now</button>
+  </div>
+</div>
+    
+</div>
+<div id="tre_pre">
+  <div class="product-container">
+    <img class="image-produit" src="assets/firas7.jpg" alt="Product Image">
+    <div class="product-details">
+        <div class="product-name">copper sword & pickaxe</div>
+        <div class="product-description">This addon also represents a copper sword & pickaxe</div>
+        <div class="product-prices">
+            <div class="product-price">$10.00</div>
+            <div class="product-coins"> <i class="fa fa-fw fa-coins">5</i></div>
+        </div>
+        <button class="buy-button"   onclick="addToCart('copper sword & pickaxe', 'This addon also represents a copper sword & pickaxe', 'assets/firas7.jpg',35)">Buy Now</button>
+    </div>
+</div>
+</div>
+<h1 id="tit">other products</h1>
+<div id="tre_pre">
+  <div class="product-container">
+    <img class="image-produit" src="assets/IMG1.jpeg" alt="Product Image">
+    <div class="product-details">
+        <div class="product-name">Creeper Plush Toy</div>
+        <div class="product-description">Bring the world of Minecraft to life with this adorable Creeper plush!
+          </div>
+        <div class="product-prices">
+            <div class="product-price">$40.00</div>
+            <div class="product-coins"> <i class="fa fa-fw fa-coins">30</i></div>
+        </div>
+        <button class="buy-button"   onclick="addToCart('Creeper Plush Toy', 'Bring the world of Minecraft to life with this adorable Creeper plush!', 'assets/IMG1.jpeg',40)">Buy Now</button>
+    </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/IMG2.jpeg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">LEGO Minecraft The Ruined Portal  </div>
+      <div class="product-description">It's a 352-piece LEGO set designed for Minecraft fans aged 8 and up.</div>
+      <div class="product-prices">
+          <div class="product-price">$15.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">10</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('LEGO Minecraft The Ruined Portal', 'Its a 352-piece LEGO set designed for Minecraft fans aged 8 and up.', 'assets/IMG2.jpeg',15)">Buy Now</button>
+  </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/IMG5.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">UNO Minecraft Edition</div>
+      <div class="product-description">A special Minecraft-themed version of the classic UNO card game.</div>
+      <div class="product-prices">
+          <div class="product-price">$35.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">25</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('UNO Minecraft Edition', 'A special Minecraft-themed version of the classic UNO card game.', 'assets/IMG5.jpeg',35)">Buy Now</button>
+  </div>
+</div>
+    
+</div>
+<div id="tre_pre">
+  <div class="product-container">
+    <img class="image-produit" src="assets/IMG3.jpeg" alt="Product Image">
+    <div class="product-details">
+        <div class="product-name"> Minecraft Adventure Backpack</div>
+        <div class="product-description">Gear up for adventure with this vibrant Minecraft-themed backpack!</div>
+        <div class="product-prices">
+            <div class="product-price">$60.00</div>
+            <div class="product-coins"> <i class="fa fa-fw fa-coins">50</i></div>
+        </div>
+        <button class="buy-button"   onclick="addToCart('Minecraft Adventure Backpack', 'Gear up for adventure with this vibrant Minecraft-themed backpack!', 'assets/IMG3.jpeg',60)">Buy Now</button>
+    </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/IMG4.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">Minecraft Steve Diamond Armor Figure</div>
+      <div class="product-description"> A collectible action figure of Steve from Minecraft.</div>
+      <div class="product-prices">
+          <div class="product-price">$50.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">40</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('Minecraft Steve Diamond Armor Figure', 'A collectible action figure of Steve from Minecraft.', 'assets/IMG4.jpg',50)">Buy Now</button>
+  </div>
+</div><div class="product-container">
+  <img class="image-produit" src="assets/img9.jpg" alt="Product Image">
+  <div class="product-details">
+      <div class="product-name">Minecraft Interactive Smartwatch</div>
+      <div class="product-description">A touchscreen smartwatch designed for Minecraft fans.</div>
+      <div class="product-prices">
+          <div class="product-price">$35.00</div>
+          <div class="product-coins"> <i class="fa fa-fw fa-coins">25</i></div>
+      </div>
+      <button class="buy-button"   onclick="addToCart('MMinecraft Interactive Smartwatch', 'A touchscreen smartwatch designed for Minecraft fans.', 'assets/img9.jpg',35)">Buy Now</button>
+  </div>
+</div>
+
+    
+</div></section>
+<section id="tab">
+<!-- Cart Table -->
+<h1 id="tit">Shopping Cart</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="cartTable">
+    <!-- Dynamically added rows will go here -->
+  </tbody>
+</table>
+<h3 id="totalPrice">Total: $0.00</h3>
+</section>
+  <script src="cart.js"></script>
+  
+</body>
+</html>
